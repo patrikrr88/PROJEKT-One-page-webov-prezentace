@@ -1,51 +1,68 @@
-# **Název projektu**
+# VPN Protector – Dokumentace projektu
 
-**VPN Protector – Webová prezentace VPN služby**
-
-# **Autor**
-Patrik Rohlena
-
-# **Stručný popis projektu (3–5 vět)**
-
-Webová prezentace moderní VPN služby zaměřené na bezpečné, rychlé a anonymní připojení k internetu. Stránka bude vytvořena jako one-page web s několika sekcemi, které představí funkce VPN, výhody šifrovaného přenosu, dostupné platformy a cenové plány. Obsah bude částečně načítán dynamicky z JSON souborů pomocí AJAXu. Projekt se zaměřuje na responzivní design, práci s daty a jednoduchou komunikaci se serverem. Cílem je vytvořit profesionální a přehlednou prezentaci fiktivní VPN služby.
-
-# **Cílová skupina**
-
-Uživatelé, kteří chtějí zvýšit svou online bezpečnost, obcházet geografická omezení nebo chránit soukromí při používání veřejných sítí.
-
-# **Návrh obsahových sekcí**
-
-1. **Proč VPN?** – vysvětlení rizik internetu, přínos VPN, typické použití.
-2. **Funkce služby** – šifrování, kill-switch, žádné logy, rychlé servery.
-3. **Servery a lokality** – dynamicky načítaný seznam serverů a zemí.
-4. **Cenové tarify** – přehled plánů + výhody jednotlivých balíčků.
-5. **Podporovaná zařízení** – Windows, Linux, Android, iOS.
-6. **Kontakt / Podpora** – formulář odesílaný na jednoduchý PHP endpoint.
-
-# **Návrh designu / wireframe**
-
-- Barevné ladění do tmavých bezpečnostních tónů (tmavě modrá, černá, akcentní tyrkysová).
-- Sekce pod sebou s výraznými ikonami.
-- Grid zobrazení serverů (2–4 sloupce podle šířky obrazovky).
-- Moderní UI prvky (rounded, shadow, Tailwind komponenty).
-- Důraz na technickou čistotu a jasnou prezentaci výhod.
-
-# **Použité technologie**
-
-- **Frontend:** HTML, Tailwind CSS, JavaScript  
-- **Data:** JSON soubory pro textové sekce + JSON seznam serverů  
-- **AJAX:** načítání sekcí, lokací a tarifů  
-- **Backend:** jednoduchý PHP script pro odeslání kontaktního formuláře  
-- **Verzování:** Git + GitHub
+**Autor:** Patrik Rohlena  
 
 ---
 
-# **Očekávaný přínos / co se naučím**
+## 1. Úvod
 
-- práce s JSON a dynamickým načítáním obsahu  
-- pochopení struktury one-page webu  
-- použití AJAX pro komunikaci se serverem  
-- tvorba responzivního technicky orientovaného designu  
-- základní backend komunikace pomocí PHP  
-- verzování projektu na GitHubu  
+Tento projekt představuje jednostránkový web propagující fiktivní VPN službu *VPN Protector*. Web se zaměřuje na bezpečnost, anonymitu a rychlé šifrované připojení. Jednotlivé části stránky budou naplněny daty z externích JSON souborů pomocí AJAXu. Cílem je vytvořit moderní, responzivní a technicky čistou prezentaci služby s jednoduchou serverovou komunikací.
 
+---
+
+## 2. Cílová skupina
+
+Web je určen uživatelům, kteří chtějí zvýšit úroveň svého online soukromí, obejít geografická omezení nebo bezpečně používat veřejné Wi-Fi sítě.
+
+---
+
+## 3. Struktura webu
+
+### • Proč VPN?
+Vysvětlení přínosů VPN, nejčastější využití a hlavní bezpečnostní rizika internetu.
+
+### • Funkce služby
+Hlavní vlastnosti: šifrování, kill-switch, zásada „no-logs“, stabilní a rychlé servery.
+
+### • Servery a lokality
+Přehled dostupných VPN serverů načítaný z JSON, včetně zemí a typu připojení.
+
+### • Cenové tarify
+Porovnání plánů, výhody jednotlivých balíčků a přehledná prezentace cen.
+
+### • Podporovaná zařízení
+Windows, Linux, Android, iOS – stručný popis kompatibility.
+
+### • Kontakt / Podpora
+Formulář odesílaný na jednoduchý PHP backend, základní informace pro uživatele.
+
+---
+
+## 4. Design a vizuální koncept
+
+- tmavé barevné téma (modré a černé odstíny)  
+- akcentní tyrkysové prvky  
+- čisté blokové rozložení obsahu  
+- Tailwind CSS pro moderní vzhled  
+- gridové zobrazení serverů (2–4 sloupce podle šířky obrazovky)  
+
+---
+
+## 5. Použité technologie
+
+- **Frontend:** HTML, Tailwind CSS, JavaScript  
+- **Data:** JSON (sekce webu, seznam serverů, tarify)  
+- **AJAX:** dynamické načítání dat do stránky  
+- **Backend:** PHP skript pro odeslání formuláře  
+- **Verzování:** Git + GitHub  
+
+---
+
+## 6. Očekávaný přínos
+
+- práce s JSON a dynamickými daty  
+- pochopení struktury one-page webů  
+- zkušenosti s AJAX komunikací  
+- tvorba responzivního designu  
+- základ backendu v PHP  
+- verzování projektu pomocí GitHubu  
